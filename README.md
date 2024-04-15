@@ -19,3 +19,4 @@ frontend fun projects made during learning frontend languages.
 4) Unbeat XO - tic tac toe
 
    This Tic Tac Toe game offers a versatile experience with various gameplay modes, including playing against another user or challenging the computer at different difficulty levels: easy, medium, and hard. The game utilizes the MiniMax algorithm to ensure an optimal and challenging experience against the computer opponent.
+   ![Fishbone_22DCS007](https://github.com/vipulahir7/frontend-fun-projects/assets/114806840/136a3648-c08f-4288-8414-04b637f680de)
