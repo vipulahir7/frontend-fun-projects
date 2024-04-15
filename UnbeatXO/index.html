@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe - play and have fun</title>
+    <link rel="shortcut icon" href="images/tic-tac-toe.png" type="image/x-icon">
+    <link rel="stylesheet" href="home-page-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="prompt-style prompt">
+        <span class="insertWinner"></span>
+        <button id="startNewPromptButton">START NEW GAME</button>
+    </div>
+
+    <div class="prompt-style play-with-computer-prompt">
+        <span>Play with Computer</span>
+        <div class="computer-buttons">
+            <button class="computer-button-style" id="easy">EASY</button>
+            <button class="computer-button-style" id="medium">MEDIUM</button>
+            <button class="computer-button-style" id="hard">HARD</button>
+        </div>
+    </div>
+
+    <button id="startNewGameButton" class="button-style">START NEW GAME</button>
+    <button id="playWithComputer" class="button-style">PLAY WITH COMPUTER</button>
+
+    <div id="wrapper">
+        <div class="turn-details">
+            <span class="mode">turn :</span><span class="turn">X</span>
+        </div>
+        <div class="container">
+            <div class="1 box"></div>
+            <div class="2 box"></div>
+            <div class="3 box"></div>
+            <div class="4 box"></div>
+            <div class="5 box"></div>
+            <div class="6 box"></div>
+            <div class="7 box"></div>
+            <div class="8 box"></div>
+            <div class="9 box"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="generate.js"></script>
+</body> 
+</html>
